@@ -6,11 +6,10 @@ description: 欢迎来到我的个人站~
 avatarTitle: Azad_jun
 # 头像里面的描述
 avatarDesc: java / 云计算
-url: "http://baixin.io"
+url: "https://azadjun.github.io/"
 
 # Comment
-comment:
-    # disqus: leopard
+comment:    
     duoshuo: Azad_jun
 
 # Social
@@ -23,24 +22,13 @@ social:
 # 百度统计 
 # 使用博客模板请去掉或者更换 id 
 baidu:
-    id: 8ba1c6be0953b6f9c2ba38e57f6154  
+    id: e777d436031d5ed12bac89e17bee0361  
 
 # Google Analytics
 # 使用博客模板请去掉或者更换 id
 ga:
-    id: UA-84134159-3   
+    id: UA-93132551-1   
     host: auto  
-
-
-# 《----------------- 上面的信息修改成你自己的 ---------------------------》
-#
-#
-#  _post/ 下的文章更换成你自己的文章
-#  帮忙star一下，感谢~😆 地址： https://github.com/leopardpan/leopardpan.github.io
-#
-#
-# 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
-
 
 permalink: /:year/:month/:title/
 # Format
