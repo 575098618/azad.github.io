@@ -1,13 +1,11 @@
 ---
 layout: post
 title: Jekyll搭建个人博客
-date: 2016-10-14 
-tags: 博客   
+date: 2017-3-7 
+tags: 搭建博客   
 ---
 
-　之前写了一篇[HEXO搭建个人博客](http://baixin.io/2015/08/HEXO%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/)的教程获得了很好评，尤其是在[简书](http://www.jianshu.com/p/465830080ea9)上目前已经累积了10W+的阅读量了，也有好心的读者主动给我打赏，在此感谢。
-
-　如果你看过我的文章会发现我现在的博客样式跟之前是有很大的区别的，之前我也是使用 HEXO 搭建的博客，后来发现使用 HEXO 在多台电脑上发布博客，操作起来并不是那么方便，果断就转到了 Jekyll 上，接下来我会讲如何使用 Jekyll 搭建博客，[博客模板效果](http://baixin.io/#blog)。
+　使用 HEXO 在多台电脑上发布博客，操作起来并不是那么方便，果断就转到了 Jekyll 上，接下来我会讲如何使用 Jekyll 搭建博客，[博客模板效果](https://azadjun.github.io/#blog)。
 
 
 ### 介绍
@@ -90,21 +88,21 @@ so easy !
 
 ### 博客部署到远端 
 
-　我这里讲的是部署到 Github Page 创建一个 github 账号，然后创建一个跟你账户名一样的仓库，如我的 github 账户名叫 [leopardpan](https://github.com/leopardpan)，我的 github 仓库名就叫 [leopardpan.github.io](https://github.com/leopardpan/leopardpan.github.io)，创建好了之后，把刚才建立的 myBlog 项目 push 到 username.github.io仓库里去（username指的是你的github用户名），检查你远端仓库已经跟你本地 myBlog 同步了，然后你在浏览器里输入 username.github.io ，就可以访问你的博客了。
+　我这里讲的是部署到 Github Page 创建一个 github 账号，然后创建一个跟你账户名一样的仓库，如我的 github 账户名叫 [azadjun](https://github.com/azadjun)，我的 github 仓库名就叫 [azadjun.github.io](https://github.com/azadjun/azadjun.github.io)，创建好了之后，把刚才建立的 myBlog 项目 push 到 username.github.io仓库里去（username指的是你的github用户名），检查你远端仓库已经跟你本地 myBlog 同步了，然后你在浏览器里输入 username.github.io ，就可以访问你的博客了。
 
 
 ### 编写文章
 
 　　所有的文章都是 _posts 目录下面，文章格式为 mardown 格式，文章文件名可以是 .mardown 或者 .md。
 
-　　编写一篇新文章很简单，你可以直接从 _posts/ 目录下复制一份出来 `2016-10-16-welcome-to-jekyll副本.markdown` ，修改名字为 2016-10-16-article1.markdown ，注意：文章名的格式前面必须为 2016-10-16- ，日期可以修改，但必须为 年-月-日- 格式，后面的 article1 是整个文章的连接 URL，如果文章名为中文，那么文章的连接URL就会变成这样的：http://baixin.io/2015/08/%E6%90%AD%E5/ ， 所以建议文章名最好是英文的或者阿拉伯数字。 双击 2016-10-16-article1.markdown 打开
+　　编写一篇新文章很简单，你可以直接从 _posts/ 目录下复制一份出来 `2017-3-7-welcome-to-jekyll副本.markdown` ，修改名字为 2017-3-7-article1.markdown ，注意：文章名的格式前面必须为 2017-3-7- ，日期可以修改，但必须为 年-月-日- 格式，后面的 article1 是整个文章的连接 URL，如果文章名为中文，那么文章的连接URL就会变成这样的：http://azadjun.github.io/2017/03/%E6%90%AD%E5/ ， 所以建议文章名最好是英文的或者阿拉伯数字。 双击 2017-3-7-article1.markdown 打开
 
 ```
 
 ---
 layout: post
 title:  "Welcome to Jekyll!"
-date:   2016-10-16 11:29:08 +0800
+date:   2017-3-7 10:29:08 +0800
 categories: jekyll update
 ---
 
@@ -114,7 +112,7 @@ categories: jekyll update
 
 
 title: 显示的文章名， 如：title: 我的第一篇文章                    
-date:  显示的文章发布日期，如：date: 2016-10-16                          
+date:  显示的文章发布日期，如：date: 2017-3-7                          
 categories: tag标签的分类，如：categories: 随笔            
 
 注意：文章头部格式必须为上面的，.... 就是文章的正文内容。
@@ -126,7 +124,7 @@ categories: tag标签的分类，如：categories: 随笔
 
 虽然博客部署完成了，你会发现博客太简单不是你想要的，如果你喜欢我的模板的话，可以使用我的模板。
 
-首先你要获取的我博客，[Github项目地址](https://github.com/leopardpan/leopardpan.github.io.git)，你可以直接[点击下载博客](https://github.com/leopardpan/leopardpan.github.io/archive/master.zip)，进去leopardpan.github.io/ 目录下， 使用命令部署本地服务 
+首先你要获取的我博客，[Github项目地址](https://github.com/azadjun/azadjun.github.io.git)，你可以直接[点击下载博客](https://github.com/azadjun/azadjun.github.io/archive/master.zip)，进去azadjun.github.io/ 目录下， 使用命令部署本地服务 
 
 ```
 $ jekyll server   
@@ -220,7 +218,7 @@ $ jekyll server
 继续报错
 
 ```
-Configuration file: /Users/tendcloud-Caroline/Desktop/leopardpan.github.io/_config.yml
+Configuration file: /Users/tendcloud-Caroline/Desktop/azadjun.github.io/_config.yml
   Dependency Error: Yikes! It looks like you don't have jekyll-sitemap or one of its dependencies installed. In order to use Jekyll as currently configured, you'll need to install this gem. The full error message from Ruby is: 'cannot load such file -- jekyll-sitemap' If you run into trouble, you can find helpful resources at http://jekyllrb.com/help/! 
 jekyll 3.1.1 | Error:  jekyll-sitemap
 
@@ -242,14 +240,14 @@ $ jekyll server
 提示
 
 ```
-Configuration file: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/leopardpan.github.io-github/_config.yml
-            Source: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/leopardpan.github.io-github
-       Destination: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/leopardpan.github.io-github/_site
+Configuration file: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/azadjun.github.io-github/_config.yml
+            Source: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/azadjun.github.io-github
+       Destination: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/azadjun.github.io-github/_site
  Incremental build: disabled. Enable with --incremental
       Generating... 
                     done in 0.901 seconds.
- Auto-regeneration: enabled for '/Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/leopardpan.github.io-github'
-Configuration file: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/leopardpan.github.io-github/_config.yml
+ Auto-regeneration: enabled for '/Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/azadjun.github.io-github'
+Configuration file: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/azadjun.github.io-github/_config.yml
     Server address: http://127.0.0.1:4000/
   Server running... press ctrl-c to stop.
 
@@ -257,7 +255,7 @@ Configuration file: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/leopardpa
 
 表示本地服务部署成功。
 
-在浏览器输入 [127.0.0.1:4000](127.0.0.1:4000) ， 就可以看到[baixin.io](http://baixin.io)博客效果了。
+在浏览器输入 [127.0.0.1:4000](127.0.0.1:4000) ， 就可以看到[azadjun.github.io](http://azadjun.github.io)博客效果了。
 
 ### 修改成你自己的博客
 
@@ -271,17 +269,16 @@ Configuration file: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/leopardpa
 
 ### 为什么要是用 Jekyll
 
-使用了 Jekyll 你会发现如果你想使用多台电脑发博客都很方便，只要把远端 github 仓库里的博客 clone 下来，写文章后再提交就可以了，Hexo 由于远端提交的是静态网页，所有无法直接写 Markdown 的文章。如果你想看 Hexo 搭建博客，可以看看我的另一篇[HEXO搭建个人博客](http://baixin.io/2015/08/HEXO%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/)的教程。
+使用了 Jekyll 你会发现如果你想使用多台电脑发博客都很方便，只要把远端 github 仓库里的博客 clone 下来，写文章后再提交就可以了，Hexo 由于远端提交的是静态网页，所有无法直接写 Markdown 的文章。
 
-如果你在搭建博客遇到问题，可以在[原文博客](http://baixin.io/2016/10/jekyll_tutorials1/)的评论里给我提问。
+如果你在搭建博客遇到问题，可以在[原文博客](http://azadjun.github.io/2017/3/jekyll_tutorials1/)的评论里给我提问。
 
 后面会继续介绍，在我的博客基础上，如何修改成你自己喜欢的 Style，欢迎继续关注我博客的更新。
 
 
 ### Q&A 
 
-> 问题：最近很多朋友使用我的模板报警告：The CNAME `baixin.io` is already taken 
-> 解决：把CNAME里面的baixin.io修改成你自己的域名，如果你暂时没有域名，CNAME里面就什么都不用谢。（之前没人反馈过这个问题，应该是github page最近才最的限制。）
+
 
 
 
